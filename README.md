@@ -1,0 +1,2 @@
+# Statistical-Analysis-of-Labour-Analgesia-and-Orthopedic-Anesthesia-Outcomes
+This project presents a comprehensive statistical analysis conducted during a data analysis contract at Rivers State University Teaching Hospital (RSUTH). The study evaluates the effectiveness, duration, and patient experience of analgesia during labour, as well as anesthesia types and outcomes among orthopedic patients.
