@@ -31,13 +31,11 @@ All patient data used in this repository is fully anonymized. No personally iden
 
 # Tools & Technologies
 
-## R Programming (tidyverse, stats)
+**R Programming (tidyverse, stats)
+**SPSS
+**Microsoft Excel
 
-## SPSS
-
-## Microsoft Excel
-
-## Statistical Tests:
+**Statistical Tests:
 
 ## Pearson’s Chi-square and Fisher’s Exact Test(Code Used)
 df %>%
@@ -75,14 +73,7 @@ df %>%
       all_continuous() ~ 2
     ),
    label = list(
-      hr_baseline ~ "Heartrate baseline",
-      hr_0mins ~ "Heartrate in 0min",
-      hr_30mins ~ "Heartrate in 30min",
-      hr_40mins ~ "Heartrate in 40min",
-      hr_60mins ~ "Heartrate in 60min",
-      hr_2hr ~ "Heartrate in 2hrs",
-      hr_4hr ~ "Heartrate in 4hrs"
-     
+         
     ),
     missing_text = "Non-responders"
   ) %>%
@@ -104,14 +95,6 @@ df %>%
       all_continuous() ~ 2
     ),
    label = list(
-      sbp_baseline ~ "Systolic BP baseline",
-      sbp_0mins ~ "Systolic BP in 0min",
-      sbp_30mins ~ "Systolic BP in 30min",
-      sbp_40mins ~ "Systolic BP in 40min",
-      sbp_60mins ~ "Systolic BP in 60min",
-      sbp_2hr ~ "Systolic BP in 2hrs",
-      sbp_4hr ~ "Systolic BP in 4hrs"
-     
     ),# Renaming the Colunm 
     missing_text = "Non-responders" # Avoiding Missing Value and replace then as Non-responders 
   ) %>%
@@ -134,3 +117,4 @@ Time-to-analgesia was significantly associated with pain severity at early follo
 Adaobi Roseline Ezechukwu
 Data Analyst | Healthcare & Statistical Analysis
 Nigeria
+Linkedin: https://www.linkedin.com/in/ezechukwu-adaobi-2803162b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
